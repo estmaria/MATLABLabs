@@ -1,0 +1,13 @@
+imfinfo('Chocolate.jpg');
+A=imread('Chocolate.jpg');
+figure(1)
+imshow(A)
+B=rgb2gray(A);
+figure(2)
+imshow(B)
+C=B/2;
+figure(3)
+imshow(C);
+D=B*2;
+figure(4)
+imshow(D);
